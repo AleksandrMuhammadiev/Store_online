@@ -49,6 +49,9 @@
   .content__title{
     font-size: 25px;
   }
+  .header_baner{
+   height: 355px;
+  }
   
 }
 
@@ -133,6 +136,21 @@
     font-size: 20px;
   }
   
+  .header_baner{
+    height: 255px;
+   }
+   .banner_text {
+    gap: 40px;
+   }
+   .banner_text p {
+    font-size: 28px;
+    line-height: 32px;
+   }
+   .banner_text h2{
+    font-size: 35px;
+    line-height: 35px;
+   }
+  
 }
 
 
@@ -157,7 +175,7 @@
 
 @media(max-width: 576px){
   .container{
-    max-width: 100%;
+    max-width: 420px;
   }
   
   .nav_right a{
@@ -174,4 +192,142 @@
     padding: 38px 15px;
 
   }
+  
+  .image_good {
+    max-width: 291px;
+}
+.card_title{
+  font-size: 20px;
+  width: 278px;
+}
+.data_price{
+  font-style: 20px;
+}
+.btn_card {
+  width: 237px;
+  height: 60px;
+  gap: 32px;
+}
+.content__description{
+  font-size: 15px;
+}
+.footer_title{
+  font-size: 15px;
+}
+.footer_list{
+  width: 300px;
+  gap: 20px;
+}
+.footer_link{
+  font-size: 11px;
+}
+
+.nav_left{
+  gap: 24px;
+}
+.filter_lang{
+  font-size: 11px;
+}
+.filter_city{
+  font-size: 11px;
+}
+.logo img{
+  width: 130px;
+}
+.click_icon img{
+  width: 20px;
+}
+.icon{
+  gap: 18px;
+}
+
+.nav_right a{
+  font-size: 12px;
+}
+.nav__top{
+  height: 60px;
+}
+.category_burger{
+  height: 45px;
+}
+.header_baner {
+  height: 185px;
+}
+
+.banner_text{
+  gap:23px;
+}
+.banner_text p{
+  font-size: 10px;
+  line-height: 4px;
+}
+.banner_text h2{
+  font-size: 17px;
+  line-height: 5px;
+}
+
+.login_form input{
+  width: 309px;
+  font-size: 12px;
+  padding: 7px 0 13px 8px;
+}
+.btn-login{
+  width: 160px;
+  padding: 10px 0;
+}
+.btn-to_register{
+  width: 236px;
+  padding: 15px 0;
+}
+.longin_info{
+  padding: 12px;
+}
+.first_visit{
+  font-size: 20px;
+}
+
+.longin_info p, .register_info p{
+      font-size: 13px;
+      margin: 33px 0 50px 0;
+      width: 332px;
+}
+  
+}
+
+@media(max-width: 420px){
+  .container{
+    max-width: 320px;
+  }
+  .image_good {
+    max-width: 291px;
+}
+.card_title{
+  font-size: 20px;
+  width: 278px;
+}
+.data_price{
+  font-size: 20px;
+}
+.btn_card {
+  width: 237px;
+  height: 60px;
+  gap: 32px;
+}
+.content__description{
+  font-style: 15px;
+}
+.footer_title{
+  font-style: 15px;
+}
+.footer_list{
+  width: 300px;
+  gap: 20px;
+}
+.footer_link{
+  font-style: 11px;
+}
+.header_baner {
+  height: 155px;
+}
+  
 }
